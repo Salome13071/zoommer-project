@@ -1,0 +1,61 @@
+/* trade in */
+main {
+    font-family: Arial, sans-serif;
+    line-height: 20px;
+}
+.components-div {
+    width: 95%;
+    max-width: 1170px;
+    font-size: 11pt;
+    font-family: "FiraGO";
+    margin: 30px auto;
+    padding: 0px 15px;
+  }
+  .components-h2 {
+    font-family: 'FiraGO';
+    padding-bottom: 24px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid var(--nav-bg-color);
+    font-weight: 700;
+    font-size: 11pt;
+    line-height: 24px;
+    color: var(--black-main);
+  }
+.tradeIn-content {
+    line-height: 25px;
+  }
+  .tradeIn-content h3 {
+    font-family: 'FiraGO';
+    font-size: 11pt;
+    line-height: 1.38;
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+    font-weight: 700;
+  }
+  .tradeIn-content p {
+    font-family: 'Arial';
+    font-size: 11pt;
+      color: var(--black-text);
+      font-weight: 400;
+  }
+  .tradeIn-content div {
+    margin-top: 20px;
+  }
+  .tradeIn-content span {
+    color: var(--black-text);
+    font-weight: 700;
+  }
+  @media (max-width: 1023px) {
+    .components-div {
+      width: 90%;
+      padding: 0 20px;
+    }
+    .tradeIn-content {
+      padding-right: 20px;
+    }
+    .components-h2 {
+      margin: 0;
+      border: none;
+    }
+
+  }
